@@ -2,8 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import spotify from "../../Assets/Projects/spotify.png";
+import ELMS from "../../Assets/Projects/ELMS.png";
+import NRS from "../../Assets/Projects/NRS.png";
+import MMG from "../../Assets/Projects/MMG.png";
 
 
 
@@ -24,12 +26,39 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={spotify}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Spotify Clone"
+              description="The Spotify Clone project is a web application that replicates the core features and aesthetics of the popular music streaming platform.
+              • Spotify. Built using a technology stack comprising HTML, CSS, JavaScript, React.js, and Tailwind CSS.
+              • This project offers a hands-on experience in front-end development and modern web technologies"
+              ghLink="https://github.com/singhshashank08/Spotify-Clone"
+              demoLink="https://spotify-clone-git-main-singhshashank08s-projects.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={NRS}
+              isBlog={false}
+              title="Recommender System"
+              description="Developed a machine learning-based recommender system for Netflix to enhance content recommendations and user engagement.
+              • Utilized Python, scikit-learn, and TensorFlow to build and train collaborative filtering models.
+              • Collected and pre-processed user interaction data to create training datasets for the models.
+              • Implemented state-of-the-art evaluation metrics like precision and recall to measure the performance of the recommender system."
+              ghLink="https://github.com/singhshashank08/netflix-recommender-system"
+              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={MMG}
+              isBlog={false}
+              title="Memory Matching Game"
+              description="Interactive game created using HTML, CSS, and JavaScript! Unveil the magic behind the virtual realm as you code and design your way through exciting challenges. From crafting stunning user interfaces with HTML and CSS to adding dynamic functionalities using JavaScript, this game offers a hands-on experience in a playful and educational environment. Unleash your creativity, sharpen your coding skills, and witness your web creations come to life, all while having a blast in this unique and engaging web development adventure"
+              ghLink="https://github.com/singhshashank08/Memory-Mattching-Game"
+              demoLink="https://memory-mattching-game.vercel.app/"
             />
           </Col>
 
@@ -37,12 +66,13 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={ELMS}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com"
+              title="Library Management System"
+              description="The Library Management System is a comprehensive software solution designed to streamline and enhance the efficiency of library operations.
+              • library staff with a powerful tool to manage various aspects of a library, from cataloging and organizing books to user interactions and generating insightful reports."
+              ghLink="https://github.com/singhshashank08/ELMS"
+          
               
             />
           </Col>
