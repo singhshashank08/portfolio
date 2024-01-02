@@ -6,7 +6,7 @@ import spotify from "../../Assets/Projects/spotify.png";
 import ELMS from "../../Assets/Projects/ELMS.png";
 import NRS from "../../Assets/Projects/NRS.png";
 import MMG from "../../Assets/Projects/MMG.png";
-
+import BTD from "../../Assets/Projects/BTD.png";
 
 
 
@@ -47,6 +47,17 @@ function Projects() {
               • Collected and pre-processed user interaction data to create training datasets for the models.
               • Implemented state-of-the-art evaluation metrics like precision and recall to measure the performance of the recommender system."
               ghLink="https://github.com/singhshashank08/netflix-recommender-system"
+              
+            />
+          </Col>
+
+                 <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={BTD}
+              isBlog={false}
+              title="Brain Tumor Detection"
+              description="Brain Tumor Detection using Machine Learning is a cutting-edge medical approach that leverages advanced algorithms to analyze medical imaging data, such as MRI scans. This innovative method enables early and accurate identification of brain tumors by training machine learning models to recognize patterns indicative of tumor presence. By automating this process, healthcare professionals can expedite diagnosis, improve treatment planning, and enhance overall patient outcomes, ushering in a new era of precision medicine for neurological conditions"
+              ghLink="https://github.com/singhshashank08/Brain-Tumor-Detection"
               
             />
           </Col>
