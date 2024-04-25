@@ -27,10 +27,8 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiSlack />
       </Col>
-       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <Sikubernetes />
-      </Col>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiDocker />
