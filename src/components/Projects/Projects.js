@@ -7,6 +7,7 @@ import ELMS from "../../Assets/Projects/ELMS.png";
 import NRS from "../../Assets/Projects/NRS.png";
 import MMG from "../../Assets/Projects/MMG.png";
 import BTD from "../../Assets/Projects/BTD.png";
+import PAI from "../../Assets/Projects/PAI.png";
 
 
 
@@ -72,8 +73,16 @@ function Projects() {
               demoLink="https://memory-mattching-game.vercel.app/"
             />
           </Col>
-
-
+                 <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={PAI}
+              isBlog={false}
+              title="Parkinson's AI"
+              description="In the Parkinson's disease detection project, I developed an iOS application using SwiftUI, CoreML, and PencilKit. The app allows users to track their symptoms and perform tests to assess their condition. It integrates machine learning models to analyze handwriting samples, detecting patterns indicative of Parkinson's disease."
+              ghLink="https://github.com/singhshashank08/Memory-Mattching-Game"
+              demoLink="https://memory-mattching-game.vercel.app/"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
