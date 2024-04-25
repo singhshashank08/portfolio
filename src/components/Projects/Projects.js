@@ -7,7 +7,7 @@ import ELMS from "../../Assets/Projects/ELMS.png";
 import NRS from "../../Assets/Projects/NRS.png";
 import MMG from "../../Assets/Projects/MMG.png";
 import BTD from "../../Assets/Projects/BTD.png";
-import PAI from "../../Assets/Projects/PAI.png";
+import PAI from "../../Assets/Projects/PAI.jpeg";
 import AMB from "../../Assets/Projects/AMB.png";
 
 function Projects() {
