@@ -10,8 +10,6 @@ import BTD from "../../Assets/Projects/BTD.png";
 import PAI from "../../Assets/Projects/PAI.png";
 import AMB from "../../Assets/Projects/AMB.png";
 
-
-
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -24,7 +22,6 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={spotify}
@@ -37,7 +34,6 @@ function Projects() {
               demoLink="https://spotify-clone-git-main-singhshashank08s-projects.vercel.app/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={NRS}
@@ -48,22 +44,18 @@ function Projects() {
               • Collected and pre-processed user interaction data to create training datasets for the models.
               • Implemented state-of-the-art evaluation metrics like precision and recall to measure the performance of the recommender system."
               ghLink="https://github.com/singhshashank08/netflix-recommender-system"
-              
             />
           </Col>
-
-                 <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={BTD}
               isBlog={false}
               title="Brain Tumor Detection"
               description="Brain Tumor Detection using Machine Learning is a cutting-edge medical approach that leverages advanced algorithms to analyze medical imaging data, such as MRI scans. This innovative method enables early and accurate identification of brain tumors by training machine learning models to recognize patterns indicative of tumor presence. By automating this process, healthcare professionals can expedite diagnosis, improve treatment planning, and enhance overall patient outcomes, ushering in a new era of precision medicine for neurological conditions"
               ghLink="https://github.com/singhshashank08/Brain-Tumor-Detection"
-              
             />
           </Col>
-                 </Col>
-                 <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={PAI}
               isBlog={false}
@@ -72,7 +64,6 @@ function Projects() {
               ghLink="https://github.com/singhshashank08"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={MMG}
@@ -83,7 +74,6 @@ function Projects() {
               demoLink="https://memory-mattching-game.vercel.app/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ELMS}
@@ -91,11 +81,9 @@ function Projects() {
               title="Library Management System"
               description="The Library Management System is a comprehensive software solution designed to streamline and enhance the efficiency of library operations. library staff with a powerful tool to manage various aspects of a library, from cataloging and organizing books to user interactions and generating insightful reports."
               ghLink="https://github.com/singhshashank08/ELMS"
-          
-              
             />
           </Col>
-                <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={AMB}
               isBlog={false}
