@@ -9,6 +9,7 @@ import {
   DiPython,
   DiGit,
   DiJava,
+  DiSwift,
 } from "react-icons/di";
 import {
   SiRedis,
