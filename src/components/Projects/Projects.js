@@ -8,7 +8,7 @@ import NRS from "../../Assets/Projects/NRS.png";
 import MMG from "../../Assets/Projects/MMG.png";
 import BTD from "../../Assets/Projects/BTD.png";
 import PAI from "../../Assets/Projects/PAI.png";
-
+import AMB from "../../Assets/Projects/AMB.png";
 
 
 
@@ -79,8 +79,7 @@ function Projects() {
               isBlog={false}
               title="Parkinson's AI"
               description="In the Parkinson's disease detection project, I developed an iOS application using SwiftUI, CoreML, and PencilKit. The app allows users to track their symptoms and perform tests to assess their condition. It integrates machine learning models to analyze handwriting samples, detecting patterns indicative of Parkinson's disease."
-              ghLink="https://github.com/singhshashank08/Memory-Mattching-Game"
-              demoLink="https://memory-mattching-game.vercel.app/"
+              ghLink="https://github.com/singhshashank08"
             />
           </Col>
 
@@ -94,6 +93,15 @@ function Projects() {
               ghLink="https://github.com/singhshashank08/ELMS"
           
               
+            />
+          </Col>
+                <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={AMB}
+              isBlog={false}
+              title="Ambrosia"
+              description="Discover the nutritional value of fruits with our comprehensive Fruit Encyclopedia app! Explore a wide variety of fruits, from familiar favorites to exotic finds, and learn about their health benefits. Each fruit profile includes a detailed description, vibrant images, and a breakdown of its nutritional content per 100g. Whether you're looking to boost your vitamin intake or simply curious about the fruits you eat, our app provides all the information you need in one convenient place. Stay healthy and informed with the Fruit Encyclopedia app!"
+              ghLink="https://github.com/singhshashank08/Ambrosia"
             />
           </Col>
         </Row>
