@@ -29,7 +29,7 @@ function Toolstack() {
         <SiVercel />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiXocode />
+        <SiXcode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiLinux />
