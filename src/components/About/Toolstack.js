@@ -8,7 +8,7 @@ import {
   SiVercel,
   SiMacos,
   SiLinux,
-  Sikubernetes,
+  SiKubernetes,
   SiDocker,
 } from "react-icons/si";
 
@@ -28,7 +28,7 @@ function Toolstack() {
         <SiSlack />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <Sikubernetes />
+        <SiKubernetes />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiDocker />
