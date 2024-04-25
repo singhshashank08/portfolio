@@ -62,17 +62,7 @@ function Projects() {
               
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={MMG}
-              isBlog={false}
-              title="Memory Matching Game"
-              description="Interactive game created using HTML, CSS, and JavaScript! Unveil the magic behind the virtual realm as you code and design your way through exciting challenges. From crafting stunning user interfaces with HTML and CSS to adding dynamic functionalities using JavaScript, this game offers a hands-on experience in a playful and educational environment. Unleash your creativity, sharpen your coding skills, and witness your web creations come to life, all while having a blast in this unique and engaging web development adventure"
-              ghLink="https://github.com/singhshashank08/Memory-Mattching-Game"
-              demoLink="https://memory-mattching-game.vercel.app/"
-            />
-          </Col>
+                 </Col>
                  <Col md={4} className="project-card">
             <ProjectCard
               imgPath={PAI}
@@ -85,11 +75,21 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={MMG}
+              isBlog={false}
+              title="Memory Matching Game"
+              description="Interactive game created using HTML, CSS, and JavaScript! Unveil the magic behind the virtual realm as you code and design your way through exciting challenges. From crafting stunning user interfaces with HTML and CSS to adding dynamic functionalities using JavaScript, this game offers a hands-on experience in a playful and educational environment. Unleash your creativity, sharpen your coding skills, and witness your web creations come to life, all while having a blast in this unique and engaging web development adventure"
+              ghLink="https://github.com/singhshashank08/Memory-Mattching-Game"
+              demoLink="https://memory-mattching-game.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={ELMS}
               isBlog={false}
               title="Library Management System"
-              description="The Library Management System is a comprehensive software solution designed to streamline and enhance the efficiency of library operations.
-              • library staff with a powerful tool to manage various aspects of a library, from cataloging and organizing books to user interactions and generating insightful reports."
+              description="The Library Management System is a comprehensive software solution designed to streamline and enhance the efficiency of library operations. library staff with a powerful tool to manage various aspects of a library, from cataloging and organizing books to user interactions and generating insightful reports."
               ghLink="https://github.com/singhshashank08/ELMS"
           
               
