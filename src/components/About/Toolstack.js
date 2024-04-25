@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
-  SiXocode,
+  SiXcode,
   SiPostman,
   SiSlack,
   SiVercel,
