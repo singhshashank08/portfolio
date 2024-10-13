@@ -9,7 +9,7 @@ import MMG from "../../Assets/Projects/MMG.png";
 import BTD from "../../Assets/Projects/BTD.png";
 import PAI from "../../Assets/Projects/PAI.jpeg";
 import AMB from "../../Assets/Projects/AMB.png";
-import HP from "https://github.com/singhshashank08/portfolio/blob/main/src/Assets/Projects/HP.jpg";
+import HP from "../../Assets/Projects/HP.png";
 
 function Projects() {
   return (
