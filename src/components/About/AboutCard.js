@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Shashank Singh </span>
             from <span className="purple"> Muzaffarnagar, India.</span>
             <br />
-            I am currently in my Third Year of B. Tech.
+            I am currently in my Final Year of B. Tech.
             <br />
             I'm Pursuing my B.Tech in Computer Science and Engineering With Specialisation in AI & ML from Galgotias University.
             <br />
