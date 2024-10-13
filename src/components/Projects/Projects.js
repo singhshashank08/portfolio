@@ -9,6 +9,7 @@ import MMG from "../../Assets/Projects/MMG.png";
 import BTD from "../../Assets/Projects/BTD.png";
 import PAI from "../../Assets/Projects/PAI.jpeg";
 import AMB from "../../Assets/Projects/AMB.png";
+import HP from "https://github.com/singhshashank08/portfolio/blob/main/src/Assets/Projects/HP.jpg";
 
 function Projects() {
   return (
@@ -90,6 +91,15 @@ function Projects() {
               title="Ambrosia"
               description="Discover the nutritional value of fruits with our comprehensive Fruit Encyclopedia app! Explore a wide variety of fruits, from familiar favorites to exotic finds, and learn about their health benefits. Each fruit profile includes a detailed description, vibrant images, and a breakdown of its nutritional content per 100g. Whether you're looking to boost your vitamin intake or simply curious about the fruits you eat, our app provides all the information you need in one convenient place. Stay healthy and informed with the Fruit Encyclopedia app!"
               ghLink="https://github.com/singhshashank08/Ambrosia"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={HP}
+              isBlog={false}
+              title="HarryPotter"
+              description="An Basic Harry Potter based fun application shows the all students and the graduates from the different houses of Hogwarts.!"
+              ghLink="https://github.com/singhshashank08/HarryPotter"
             />
           </Col>
         </Row>
