@@ -10,7 +10,6 @@ function Type() {
           "Software Developer",
           "UI/UX Designer",
           "MERN Stack Developer",
-          "Open Source Contributor",
         ],
         autoStart: true,
         loop: true,
